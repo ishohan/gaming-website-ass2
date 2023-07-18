@@ -80,6 +80,7 @@ nav ul li{
 
     .banner-card{
         position: relative;
+        
     }
     .banner-text{
         position:absolute;
@@ -117,5 +118,8 @@ nav ul li{
         font-weight: 600;
         text-transform: uppercase;
         border: 0;
+    }
+    .img-18{
+        padding-top: 50px;
     }
 
