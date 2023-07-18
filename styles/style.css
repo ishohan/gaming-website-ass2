@@ -2,3 +2,56 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 /* nav section  */
+.logo-container{
+    display: flex;
+    height: 100px;
+    flex-shrink: 0;
+    background: #FFF;
+    padding-left: 240px;
+    padding-right: 240px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-img{
+    display: flex;
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    align-items: center;
+    
+}
+.g-style{
+    color:#FF42A5;
+}
+.logo-title{
+    margin-left: 15px;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+nav ul li{
+    display: inline-block;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0 10px;
+    
+}
+   
+.ul-items{
+    display: inline-block;
+}
+.follow-btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: 0px;
+    
+}
+.fa-brands{
+    margin-left: 15px;
+
+}
