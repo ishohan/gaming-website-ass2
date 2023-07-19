@@ -260,3 +260,44 @@ nav ul li{
         gap: 44px;
         margin-top: 30px;
     }
+    /* footer section 3  */
+    .footer-logo-img{
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .footer-section3{
+        background: #0B0223;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    .logo-second-name{
+        color: #FFF;
+    }
+    .footer-titles{
+        display: flex;
+        color: #FFF;
+        justify-content: center;
+        gap: 60px;
+        font-size: 1rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .brand-logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 60px;
+        padding-top: 20px;
+        
+    }
+    .last-descriptions{
+        display: flex;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 1rem;
+        font-weight: 500;
+        gap: 50px;
+        padding-bottom: 20px;
+    }
