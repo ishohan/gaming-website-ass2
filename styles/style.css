@@ -85,6 +85,9 @@ nav ul li{
         position: relative;
         
     }
+    .logo-description{
+        padding-bottom: 10px;
+    }
     .banner-text{
         position:absolute;
         top: 0;
@@ -182,7 +185,8 @@ nav ul li{
         padding-bottom: 20px;
         font-size: 3rem;
     }
-    .funny-videos-title{
+    .funny-videos-title, .play-instant
+    {
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -198,4 +202,61 @@ nav ul li{
     }
     .card-img{
         padding-bottom: 20px;
+    }
+    /* middle section  */
+    .ms-title{
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 60px;
+        color: #0B0223;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: right;
+       
+    }
+    .ms-description{
+        text-align: right;
+        margin-top: 30px;
+    }
+    .middle-section{
+        margin-top: 100px;
+        margin-right: 0;
+        margin-bottom: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        padding-right: 120px;
+        padding-left:300px ;
+    }
+
+    .first-img{
+        position:absolute;
+        padding-top: 350px;
+    }
+    .second-img{
+        padding-left: 150px;
+    }
+    /* footer section 1  */
+    .footer-section1{
+        align-items: center;
+        text-align: center;
+    }
+    .first-features{
+        display: flex;
+        justify-content: center;
+        gap: 44px;
+    }
+    
+    .feature-items{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .footer-section2{
+        display: flex;
+        justify-content: center;
+        gap: 44px;
+        margin-top: 30px;
     }
